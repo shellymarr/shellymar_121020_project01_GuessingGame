@@ -145,16 +145,4 @@ def roll():
     w.close()
     return [Random_number_1, Random_number_2]
 
-guess = [0,0]
-while True:
-    print("Guess Number on 1st Die roll: (1-6)")
-    guess[0] = int(input())
-    if guess[0]<6 or guess[0]>1:
-        break
-
-while True:
-    print("Guess Number on 2nd Die roll: (1-6)")
-    guess[1] = int(input())
-    if guess[1]<6 or guess[1]>1:
-        break
 

@@ -158,11 +158,3 @@ while True:
     if guess[1]<6 or guess[1]>1:
         break
 
-guess.sort()
-actual_appearance = roll()
-actual_appearance.sort()
-
-if actual_appearance[0] == guess[0] and actual_appearance[1] == guess[1]:
-    print("You Won!")
-else:
-    print("Try Again!")

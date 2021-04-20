@@ -166,3 +166,4 @@ if actual_appearance[0] == guess[0] and actual_appearance[1] == guess[1]:
     print("You Won!")
 else:
     print("Try Again!")
+    print("test")

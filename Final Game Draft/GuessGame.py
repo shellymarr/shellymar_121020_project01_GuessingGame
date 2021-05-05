@@ -4,11 +4,11 @@ def roll():
 
     w = GraphWin()
     s1 = Rectangle(Point(80,80), Point(20,20))
-    s1.setFill("Blue")
+    s1.setFill("Red")
     s1.draw(w)
 
     s2 = Rectangle(Point(140, 140), Point (80,80))
-    s2.setFill("Blue")
+    s2.setFill("Red")
     s2.draw(w)
 
     
@@ -25,7 +25,7 @@ def roll():
 
     center3 = Point(30,60)
     sd3 = Circle(center3, 5)
-    sd3.setFill("Red")
+    sd3.setFill("White")
 
     center4 = Point(30,30)
     sd4 = Circle(center4, 5)
